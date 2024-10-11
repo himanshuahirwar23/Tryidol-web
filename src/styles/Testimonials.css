@@ -1,0 +1,72 @@
+.Testimonials{
+    width: 100%;
+    height: 90vh;
+    /* background-color: #453b3b; */
+}
+.Testimonials-card{
+    width: 90%;
+    margin-left: 63px;
+    height: 100vh;
+    /* background-color: rgb(129, 61, 61); */
+    text-align: center;
+    padding-top: 60px;
+    flex-direction: column;
+}
+.card_1{
+    width: 60%;
+    height: 130px;
+    margin-left: 20%;
+    background-color:#F5F5F5;
+    text-align: left;
+    padding: 28px 28px 27px;
+    margin-top: 30px
+
+}
+.card_1 h6{
+    margin: 0;
+    font-size: 14px;
+    line-height: 26px;
+    color:#747474;
+    font-weight: 200;
+
+}
+.Tectimonials_after{
+    width: 30px;
+    height: 33px;
+    margin-top: 22px;
+    background: url(//dxminds.com/wp-content/themes/consulting/assets/css/layout_1/../../images/testimonials_before_2.png) no-repeat    ;
+    background-size: 15px 18px;
+}
+.founder{
+    width: 60%;
+    height: 70px;
+    padding-top: 9px;
+
+    /* background-color:#c92121; */
+    text-align: left;
+    margin-left: -6%;
+    display: flex;
+}
+.founder img{
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+.founder h3{
+    color: #222;
+    line-height: 20px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.founder p{
+    color: #979797;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 2px;
+    padding-left: 10px;
+
+}

@@ -1,0 +1,38 @@
+/* src/Technologies.css */
+.technologies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    height: 150vh;
+    /* background-color: #dd3333; */
+  }
+  
+  .technology-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .technology-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
