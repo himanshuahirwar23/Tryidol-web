@@ -10,7 +10,7 @@ import Technologies from './Technologies'
 import StandOut from './StandOut'
 import CallBackForm from './CallBackForm'
 import Footer from './Footer'
-import Carousel from './carousel'
+import Carousel from './Carousel'
 
 
 function Home() {
