@@ -1,0 +1,20 @@
+.carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+.carousel-slide {
+  min-width: calc(100% / 3); 
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+}

@@ -17,10 +17,10 @@ function Service() {
           </h1>
         </div>
       </div>
-      <div className="numbers">
+      {/* <div className="numbers">
         <p>Numbers speak louder than words</p>
         <h1>LET'S MAKE A NEW BUZZ</h1>
-      </div>
+      </div> */}
       
     </div>
   );

@@ -24,6 +24,7 @@ function Hero() {
               <button>CONNENT WITH US</button>
             </div>
           </div>
+          <div className="image-bgc"></div>
         </div>
       </div>
     </div>

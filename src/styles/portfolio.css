@@ -1,11 +1,31 @@
 .portfolio{
     width: 100%;
-    height: 103vh;
+    /* height: 130vh; */
+    height: 30vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
     /* background-color: rgb(183, 168, 168); */
+}
+.prominent{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    /* background-color: #881313; */
+}
+.down_header p{
+    font-size: 18px;
+    color: #222229;
+}
+.down_header h2{
+    color: #4d4d4d;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
 }
 .img-section{
     width: 350px;

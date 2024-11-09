@@ -1,38 +1,96 @@
 /* src/Technologies.css */
 .technologies-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    height: 150vh;
-    /* background-color: #dd3333; */
-  }
-  
-  .technology-card {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .technology-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  h3 {
-    font-size: 1.25rem;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 0.9rem;
-    color: #555;
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  min-height: 100vh;
+  /* background-color: #dd3333; */
+}
+
+.technology-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, background-color 0.7s ease-in-out, color 0.2s ease-in-out;
+}
+
+.technology-card:hover {
+  transform: translateY(-5px);
+  background-color: black; /* Change background to black on hover */
+  color: white; /* Change text color to white on hover */
+}
+
+.technology-card:hover p,
+.technology-card:hover h3 {
+  color: white; /* Ensure all text elements are white */
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.para-tech {
+  font-size: 13px;
+  color: #555;
+}
+
+.technology-card {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}

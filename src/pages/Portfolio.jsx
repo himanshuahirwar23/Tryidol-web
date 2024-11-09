@@ -2,10 +2,17 @@ import React from 'react'
 import "../styles/portfolio.css";
 
 
+
 function portfolio() {
   return (
     <div className='portfolio'>
-       <div className='img-section'>
+      <div className='prominent'>
+         <div className='down_header'>
+        <p>Our Prominent Portfolio</p>
+       <h2>ENDORSING YOUR BUSINESS IDEAS WITH INNOVATION
+       </h2></div>
+      </div>
+       {/* <div className='img-section'>
        <img src="https://dxminds.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-15-at-16.05.02.jpeg" alt="Soulipie- Dating App" />
        <h6>Soulipie- Dating App</h6>
        </div>
@@ -29,7 +36,7 @@ function portfolio() {
        <div className='img-section'>
        <img src="https://dxminds.com/wp-content/uploads/2022/09/AIO_PORTFOLIO.jpg" alt="Soulipie- Dating App" />
        <h6>AIO Games - Fantasy Sports App</h6>
-       </div>
+       </div> */}
     </div>
   )
 }

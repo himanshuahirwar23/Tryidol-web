@@ -10,23 +10,25 @@ import Technologies from './Technologies'
 import StandOut from './StandOut'
 import CallBackForm from './CallBackForm'
 import Footer from './Footer'
+import Carousel from './carousel'
 
 
 function Home() {
   return (
     <div>
         <Hero></Hero>
-        <Discover></Discover>
         <Portfolio></Portfolio>
+        <Carousel></Carousel>
         <Card></Card>
         <Testimonials></Testimonials>
         <Service></Service>
         <StatsSection></StatsSection>
         <Technologies></Technologies>
         <StandOut></StandOut>
+        <Discover></Discover>
         <CallBackForm></CallBackForm>
         <Footer></Footer>
-    </div>
+      </div>
   )
 }
 

@@ -18,21 +18,29 @@
   color: #002e5b;
   margin-left: 300px;
   cursor: pointer;
-  width: 600px;
-  justify-content: space-between;
-
-  align-items: center;
+  width: 1000px;
+  align-items: center; 
+  gap: 20px;
 }
-.NavItems h1{
+.heading{
   transition: transform 0.3s ease;
 
 }
+.heading{
+  background: #ffffff;
+  font-size: 15px;
+  color: black;
+}
 
-.NavItems h1:hover {
-  transform: translateY(-5px);
+.heading:hover {
+  transform: translateY(-2px);
   /* box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15); */
 }
 .menu {
   display: flex;
   font-size: 10px;
+}
+*{
+  text-decoration: none;
+    
 }

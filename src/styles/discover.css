@@ -1,11 +1,11 @@
 .discover_container{
-    height: 90vh;
+    height: 50vh;
     width: 100%;
     /* background-color: rgb(161, 146, 146); */
 }
 .top_header{
     width: 100%;
-    height: 410px;
+    height: 70px;
     /* background-color: #b15d5d; */
     text-align: center;
     position: relative;
@@ -36,6 +36,4 @@
     margin-top: 20px;
     /* cursor: pointer; */
 }
-.down_header {
-    margin-top: 60px;
-}
+

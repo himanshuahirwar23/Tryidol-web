@@ -4,7 +4,7 @@
 }
 .hero_section {
   height: 100vh;
-  background: #ffffff;
+  /* background: #127980; */
   width: 100%;
   display: flex;
 }
@@ -14,11 +14,12 @@
   width: 100%;
   background-position: right;
   background-size: cover;
-  background-image: url(https://dxminds.com/wp-content/uploads/2022/09/home.png);
+  /* background-image: url(https://dxminds.com/wp-content/uploads/2022/09/home.png); */
 
 }
 .right_section div{
     width: 700px;
+    /* background-color: #dd1d1d; */
     margin-left: 50px;
     padding-top:50px;
     font-family: poppins;
@@ -35,17 +36,18 @@
     margin-top: -0.24em;
 }
 .right_section div h1{
-    font-size: 55px;
+    font-size: 37px;
     font-weight: bold;
     line-height: 1.135;
     color: #4D4D4D;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .right_section div p{
-    margin: 0 0 18px 0;
+    margin: 0 0 50px 0;
     color: #737887;
-    line-height: 1.75;
+    line-height: 1.90;
+    font-size: 17px;
 }
 
 button{
@@ -58,3 +60,13 @@ button{
     background-color: #fab700;
     cursor: pointer;
 }  
+
+.image-bgc{
+  background-color: #000000;
+  background-image: url(https://img.freepik.com/free-vector/hand-drawn-business-communication_52683-76425.jpg?t=st=1729578366~exp=1729581966~hmac=4f8e51b8099602b59cc4ae8ce97359432192c32451e4a2eed92d0b6847604d3e&w=740);
+  background-position: center;
+  background-size: cover;
+  width: 1000px;
+
+  height: 600px;
+}
